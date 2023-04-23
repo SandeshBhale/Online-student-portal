@@ -1,0 +1,89 @@
+
+html{
+	font-size: 62.5%;
+}
+
+.maincontainer{
+    position: relative;
+    top:5rem;
+    width: 100%;
+}
+
+.div-container{
+    width: 70%;
+    margin-left:23%;
+    /* background-color: #ffffff;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22); */
+    padding: 1.8rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+  padding: 0.5rem 0;
+}
+
+.collapsible {
+  background-color:#fff;
+  box-shadow: 0 1rem 2.8rem rgba(0,0,0,0.25), 
+                0 0.1rem 1rem rgba(0,0,0,0.22);
+  color: #000;
+  cursor: pointer;
+  padding: 0.8rem 1.8rem;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  margin-left: 10%;
+}
+
+/* .active, .collapsible:hover {
+  background-color: #555;
+} */
+
+.content {
+  padding: 0 1.8rem;
+  max-height: 0;
+  width: 76.7%;
+  overflow: hidden;
+  margin-left: 10%;
+  transition: max-height 0.2s ease-out;
+  background-color: #1F363D;
+  color: #fff;
+  font-size: 1.4rem;
+}
+  
+
+.image{
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+}
+
+
+.left-half,.right-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+
+}
+
+.left-half {
+  flex: 0.5;
+  padding: 0 1rem;
+}
+
+.right-half {
+  flex: 1.1;
+  flex-basis: auto;
+  width: 30%;
+}

@@ -1,0 +1,89 @@
+@media (max-width: 980px) { 
+    .text-osp{
+       margin-left:3rem ;
+    }
+    .my-captions1 h4{
+      padding: 1rem 0 ;
+      font-size: 1.2em;
+      margin-top: 1rem;
+    }
+     .my-captions1 h2{
+      padding-top:0.5rem;
+    }
+    .my-captions2 h4{
+        padding: 1rem 0 ;
+        font-size: 1.2rem;
+    }
+    .my-captions2 .heading1{
+        padding-top:0.5rem;
+    }
+    .my-captions3 h4{
+        padding: 2rem 0 ;
+        font-size: 1.2rem;
+    }
+    .my-captions3 .heading1{
+        padding-top:1.5rem;
+    }
+
+}
+@media (max-width: 992px) { 
+  .my-captions1 h4{
+    padding: 1rem 0 ;
+    font-size: 1.2em;
+  }
+  .my-captions1 .heading1{
+      margin-top: -5em;
+  }
+  .my-captions2 h4{
+      padding: 1rem 0 ;
+      font-size: 1.2rem;
+  }
+  .my-captions2 .heading1{
+      margin-top: 1rem;
+  }
+  .my-captions3 h4{
+      padding: 1rem 0 ;
+      font-size: 1.2rem;
+  }
+  .my-captions3 .heading1{
+      margin-top: 1rem;
+  }
+}    
+@media (max-width: 480px) { 
+    .my-captions1,.my-captions2{
+        padding: 1rem 0 ;
+    }
+    .my-captions3{
+        padding: 0 ;
+        font-size: 0.5rem;
+    }
+}   
+/* @media (max-width: 1200px) { 
+    .marqueecontainer{
+        width: 20rem;
+        font-size: 12px;
+    }
+} */
+@media (max-width: 1025px) { 
+  .my-captions1 h4{
+    padding: 1rem 0 ;
+    font-size: 1.2em;
+  }
+  .my-captions1 .heading1{
+      margin-top: 2rem;
+  }
+  .my-captions2 h4{
+      padding: 1rem 0 ;
+      font-size: 1.2rem;
+  }
+  .my-captions2 .heading1{
+      margin-top: 2rem;
+  }
+  .my-captions3 h4{
+      padding: 1rem 0 ;
+      font-size: 1.2rem;
+  }
+  .my-captions3 .heading1{
+      margin-top: -0rem;
+  }
+}

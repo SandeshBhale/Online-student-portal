@@ -1,0 +1,48 @@
+  /* Faculty Code Starts
+
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  
+  Style the buttons
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 8px;
+    background-color: #b66dff;
+    color:white;
+    cursor: pointer;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  #myBtnContainer{
+      background-color: #ffffff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+    color: white;
+  }
+  
+  .btn.active {
+    background-color: #07cdae;
+    color: white;
+  }
+  Faculty Code Ends */
+
+  .data:hover{
+    background-color: #ebedf2;
+  }
